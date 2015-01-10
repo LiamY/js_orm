@@ -1,8 +1,11 @@
+var db_utils = {};
+
 var queryString = function (stringFunc) {
   return stringFunc.toString().
     replace(/^[^\/]+\/\*!?/, '').
     replace(/\*\/[^\/]+$/, '');
 };
+db_utils.queryString = queryString;
 
 // example usage
 // var hello = function () {/*!
@@ -13,4 +16,4 @@ var queryString = function (stringFunc) {
 //
 // console.log(queryString(hello));
 
-module.exports = queryString;
+module.exports = db_utils;
