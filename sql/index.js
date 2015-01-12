@@ -1,3 +1,6 @@
+// Import other files within this directory to index.js
+// Note: this directory's contents must be flat in order
+// for the import to work correctly
 "use strict";
 
 var fs       = require("fs");

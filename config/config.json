@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "pivotal",
+    "username": "js_orm",
     "password": null,
     "database": "js_orm_dev",
     "host": "127.0.0.1",
@@ -8,16 +8,16 @@
     "dialect": "postgres"
   },
   "test": {
-    "username": "pivotal",
+    "username": "js_orm",
     "password": null,
-    "database": "database_test",
+    "database": "js_orm_test",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
   "production": {
-    "username": "pivotal",
+    "username": "js_orm",
     "password": null,
-    "database": "database_production",
+    "database": "js_orm_prod",
     "host": "127.0.0.1",
     "dialect": "postgres"
   }
